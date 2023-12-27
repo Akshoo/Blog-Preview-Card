@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@100;200;300;400;500;600;800&display=swap');
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+main {
+    background-color: white;
+    border-radius: 1rem;
+    border: 1.2px solid hsl(0, 0%, 7%);
+    
+    padding: 1.5rem;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: min-content;
+    
+    font-family: 'Figtree', sans-serif;
+    
+    box-shadow: 0.35rem 0.35rem black;
+    transition: all 0.3s;
+}
+main:hover{
+    box-shadow: 0.8rem 0.8rem black;
+    translate: -0.35rem -0.35rem ;
+}
+.illustration {
+    display: block;
+    border-radius: 0.5rem;
+    transition: all 0.4s;
+}
+.imagebox{
+    display: block;
+    height: min-content;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    overflow:hidden;
+}
+.illustration:hover{
+    scale: 1.1;
+}
+
+.learning {
+    display: inline-block;
+    font-weight:700;
+    background-color: hsl(47, 88%, 63%);
+
+    border-radius: 0.15rem;
+    padding: 0.25rem 0.75rem;
+}
+
+h5{
+    
+    font-weight: 400;
+    margin-top: 1rem;
+}
+h2{
+    transition: all 0.4s;
+
+}
+h2:hover{
+    color:hsl(47, 88%, 63%) ;
+}
+h2,.learning,.name:hover{
+    cursor: pointer;
+}
+
+p{
+    color:hsl(0, 0%, 50%);
+    font-weight: 400;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+}
+.profileimg{
+    height:30px;
+}
+.name{
+    margin-left: 0.5rem;
+    font-weight: 700;
+
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    right: 45px;
+}
+
+@media (max-width: 376px){
+
+    main{
+        /* font-size: 13px; */
+        width: 283px;
+    }
+    p{
+        font-size: 13px;
+
+    }
+    .illustration{
+        transform: translate(-29px,0px);
+    }
+
+}
