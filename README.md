@@ -21,8 +21,8 @@ Users should be able to:
 ### Screenshot
 
 My Submission
-![desktop](screenshots\Screenshot1.png)
-![mobile](screenshots\Screenshot2.png)
+![desktop](screenshots/Screenshot1.png)
+![mobile](screenshots/Screenshot2.png)
 
 
 ### Links
